@@ -1,0 +1,10 @@
+<h1> Board Tasks</h1>
+<div>
+    {{/*Displays Number of tasks*/}}
+    {{.TasksCount}} is the Number of Tasks
+</div>
+<div>
+    {{range .ToDoTasks}}
+    <p>{{.}}</p>
+    {{end}}
+</div>
